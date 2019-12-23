@@ -1,0 +1,29 @@
+#content{
+width: 80%;
+margin: 20px auto;
+border: 1px solid #cbcbcb;
+	
+
+}
+
+#img_div{
+	width: 80%;
+	padding: 5px;
+	margin: 15px auto;
+	border: 1px solid #cbcbcb;
+} 
+#img_div:after{
+	
+	content: "";
+	display: block;
+	clear: both;
+}
+
+img{
+	
+	float: top;
+	position: relative;
+	margin: 5px;
+	width: 500px;
+	height: 180px;
+}
